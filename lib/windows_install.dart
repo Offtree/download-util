@@ -32,8 +32,10 @@ Future<ReturnCode> runFFmpegCommand(String cmd) async {
     }
     ProcessResult process = await Process.run(
       ffmpeg,
-      [cmd],
+      cmd.split(' '),
     );
+    print(process.stderr);
+    print(process.stdout);
     var returnCode = ReturnCode(process.exitCode);
     return returnCode;
   } else {
