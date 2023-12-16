@@ -1,3 +1,4 @@
+import 'dart:convert';
 import 'dart:io';
 import 'package:archive/archive_io.dart';
 import 'package:background_downloader/background_downloader.dart';
@@ -29,11 +30,11 @@ Future<ReturnCode> runFFmpegCommand(String cmd) async {
     if ((_ffmpegBinDirectory != null) && (Platform.isWindows)) {
       ffmpeg = path.join(_ffmpegBinDirectory!, "ffmpeg.exe");
     }
-    Process process = await Process.start(
+    ProcessResult process = await Process.run(
       ffmpeg,
       [cmd],
     );
-    var returnCode = ReturnCode(await process.exitCode);
+    var returnCode = ReturnCode(process.exitCode);
     return returnCode;
   } else {
     var res = await FFmpegKit.execute(cmd).then((session) async {
