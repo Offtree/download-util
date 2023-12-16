@@ -39,11 +39,11 @@ class HelpDialog extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    "Step 2: Open Developer Tools (Ctrl + Shift + I) or (Right click > Inspect)",
+                    "Step 2: Open Developer Tools within the Chrome browser - (Ctrl + Shift + I) or (Right click > Inspect)",
                     style: Theme.of(context).textTheme.titleMedium,
                   ),
                   Text(
-                    "Follow the image to make sure you have the correct tab open (Network) along with the searching for 'parcel'",
+                    "Follow the image to make sure you have the correct tab open in the Developer Tools window. (Network) along with the searching for 'parcel'",
                     style: Theme.of(context).textTheme.bodyMedium,
                   ),
                   Padding(
@@ -75,11 +75,11 @@ class HelpDialog extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    "Step 4: Play and Pause the video for a few seconds",
+                    "Step 4: Play and Pause the video for a few seconds (5 seconds as most is all you need)",
                     style: Theme.of(context).textTheme.titleMedium,
                   ),
                   Text(
-                    "At this point you'll start to see some network requests in the devtool panel you opened previously.",
+                    "At this point you'll start to see some network requests in the Developer Tools panel you opened previously.",
                     style: Theme.of(context).textTheme.bodyMedium,
                   ),
                 ],
@@ -95,10 +95,6 @@ class HelpDialog extends StatelessWidget {
                   Text(
                     "Step 5: Click on a row",
                     style: Theme.of(context).textTheme.titleMedium,
-                  ),
-                  Text(
-                    "Follow the image to make sure you have the correct tab open (Network) along with the searching for 'parcel'",
-                    style: Theme.of(context).textTheme.bodyMedium,
                   ),
                   const SizedBox(
                     height: 4,
@@ -163,7 +159,7 @@ class HelpDialog extends StatelessWidget {
                     style: Theme.of(context).textTheme.bodyMedium,
                   ),
                   Text(
-                    "Eventually you'll get a conformation that the download has completed.",
+                    "Eventually you'll get a confirmation that the download has completed.",
                     style: Theme.of(context).textTheme.bodyMedium,
                   ),
                   Padding(

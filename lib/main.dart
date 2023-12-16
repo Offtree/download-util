@@ -121,9 +121,9 @@ class _MyHomePageState extends State<MyHomePage> {
                         decoration: const InputDecoration(
                           border: UnderlineInputBorder(),
                           labelText: 'File Name',
-                          hintText: 'my-recording.mp4',
+                          hintText: 'my_recording.mp4',
                           helperText:
-                              'What the output file should be called (end with .mp4)',
+                              'What the output file should be called (end with .mp4 - no spaces or weird characters)',
                         ),
                       ),
                     ],
