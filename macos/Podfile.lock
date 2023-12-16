@@ -1,0 +1,39 @@
+PODS:
+  - ffmpeg-kit-macos-https (6.0.LTS)
+  - ffmpeg_kit_flutter (6.0.3.LTS):
+    - ffmpeg_kit_flutter/https-lts (= 6.0.3.LTS)
+    - FlutterMacOS
+  - ffmpeg_kit_flutter/https-lts (6.0.3.LTS):
+    - ffmpeg-kit-macos-https (= 6.0.LTS)
+    - FlutterMacOS
+  - FlutterMacOS (1.0.0)
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - ffmpeg_kit_flutter (from `Flutter/ephemeral/.symlinks/plugins/ffmpeg_kit_flutter/macos`)
+  - FlutterMacOS (from `Flutter/ephemeral`)
+  - path_provider_foundation (from `Flutter/ephemeral/.symlinks/plugins/path_provider_foundation/darwin`)
+
+SPEC REPOS:
+  trunk:
+    - ffmpeg-kit-macos-https
+
+EXTERNAL SOURCES:
+  ffmpeg_kit_flutter:
+    :path: Flutter/ephemeral/.symlinks/plugins/ffmpeg_kit_flutter/macos
+  FlutterMacOS:
+    :path: Flutter/ephemeral
+  path_provider_foundation:
+    :path: Flutter/ephemeral/.symlinks/plugins/path_provider_foundation/darwin
+
+SPEC CHECKSUMS:
+  ffmpeg-kit-macos-https: de3acaeb2db1755268bd93655db8a8e0b222430e
+  ffmpeg_kit_flutter: ced4e29c37510bec64f19bb62afde478001d10a6
+  FlutterMacOS: 8f6f14fa908a6fb3fba0cd85dbd81ec4b251fb24
+  path_provider_foundation: 29f094ae23ebbca9d3d0cec13889cd9060c0e943
+
+PODFILE CHECKSUM: 236401fc2c932af29a9fcf0e97baeeb2d750d367
+
+COCOAPODS: 1.14.3
