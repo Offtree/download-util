@@ -21,7 +21,7 @@ class HelpDialog extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    "Step 1: Go to video to download (Chrome)",
+                    "Step 1: Go to video to download (Chrome) and open a text document to make things easier",
                     style: Theme.of(context).textTheme.titleMedium,
                   ),
                   Padding(
@@ -75,7 +75,7 @@ class HelpDialog extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    "Step 4: Play and Pause the video for a second",
+                    "Step 4: Play and Pause the video for a few seconds",
                     style: Theme.of(context).textTheme.titleMedium,
                   ),
                   Text(
@@ -106,6 +106,13 @@ class HelpDialog extends StatelessWidget {
                   Text(
                     "We're now looking for two types of urls. One will have 'parcel/audio' and the other should have 'parcel/video' see examples below. There will be multiple of each depending on how long you've played the video for. We only need one of each.",
                     style: Theme.of(context).textTheme.bodyMedium,
+                  ),
+                  const SizedBox(
+                    height: 24,
+                  ),
+                  Text(
+                    "!!!!For the best quality!!!! let the video play a little longer and start from the bottom urls and work up to find one of each.",
+                    style: Theme.of(context).textTheme.bodyLarge,
                   ),
                   Padding(
                     padding: const EdgeInsets.all(12.0),
